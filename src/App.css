@@ -1,0 +1,194 @@
+/* styles.css */
+.testimonial-slide {
+  display: flex;
+  align-items: center;
+  /* padding: 20px; */
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(147, 60, 128);
+  background: radial-gradient(
+    circle,
+    rgba(147, 60, 128, 1) 0%,
+    rgba(62, 60, 128, 1) 100%
+  );
+}
+
+.testimonial-slide img {
+  /* width: 100px; */
+  /* height: 100px; */
+  border-radius: 10px 0 10px 0;
+}
+
+.testimonial-content {
+  margin-left: 20px;
+  color: aliceblue;
+}
+
+.testimonial-content h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.testimonial-content p {
+  margin: 5px 0;
+}
+
+.testimonial-quote {
+  font-style: italic;
+}
+.Limage {
+  border-radius: 20px;
+  transition: transform 0.3s ease; /* Adjust duration and easing as needed */
+}
+.Limage:hover {
+  transform: scale(0.95); /* Adjust scale as needed */
+}
+
+.tagss {
+  margin-right: 6px;
+  border: 2px solid gray;
+  padding: 2px 4px;
+  margin-left: 2rem;
+  font-size: 10px;
+  border-radius: 100px;
+  opacity: 0.5;
+}
+.texting {
+  opacity: 0.5;
+}
+.titleMain {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.mainT {
+  padding: 1rem 2rem;
+}
+/* Full height section that will scroll */
+.yellow-band {
+  position: sticky; /* Sticks as you scroll */
+  top: 0; /* Stick to the top of the viewport */
+  height: 100vh; /* Full viewport height */
+  background-color: var(--theme-color-light);
+  transform: skewY(-10deg); /* Adds a slant to the band */
+  z-index: -1; /* Send behind other content */
+}
+
+.home_banner-slide {
+  transform: translate3d(0, 0, 0); /* Basic translation */
+  height: 100vh; /* Full height for the slide */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_slide-container {
+  width: 100%;
+  height: 100%;
+  background-color: var(--theme-color-dark);
+  opacity: 0.8; /* Just an example */
+  transition: transform 0.5s ease-in-out;
+}
+
+body {
+  margin: 0;
+  height: 200vh; /* To create scrolling space */
+}
+.contact {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  line-height: 1;
+}
+.contact1 {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-size: 195px;
+}
+.btn1 {
+  padding: 20px;
+}
+.inputTag {
+  /* width: 100%; */
+  /* height: 30%; */
+}
+.inputContain {
+  /* width: 60%; */
+  /* height: 50vh; */
+}
+.inputInside {
+  width: 50vw;
+  margin: 10px;
+}
+.inputTag input {
+  width: 80%;
+  height: 100%;
+  color: black;
+  border-radius: 20px;
+  height: 10vh;
+  margin: 10px;
+  padding: 20px 20px;
+}
+.textArea {
+  margin: 19px;
+  border-radius: 20px;
+  height: 88%;
+  width: 100%;
+  padding: 30px;
+  color: black;
+}
+.someArea {
+  width: 40vw;
+}
+.btn5 {
+  padding: 15px;
+  width: 20%;
+  border: 1px solid black;
+  /* opacity: 0.5; */
+  font-size: 130%;
+  border-radius: 40px;
+}
+.bt4 {
+  transition: all 2s ease-in-out;
+}
+.bt4 :hover {
+  color: aliceblue;
+  background: rgb(56, 54, 188);
+  background: linear-gradient(
+    45deg,
+    rgba(56, 54, 188, 1) 0%,
+    rgba(62, 60, 128, 1) 100%
+  );
+}
+.somethingscc {
+  position: relative;
+  left: -11.5rem;
+}
+#something1 {
+  display: flex;
+  align-items: center;
+}
+#somethingg {
+  animation: rotate 50s infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.titlee {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 1;
+}
+.o {
+  font-family: "Inter", sans-serif;
+}
+.btn8{
+  border: 1px solid gainsboro;
+  /* padding:3px ; */
+  border-radius: 10px;
+}

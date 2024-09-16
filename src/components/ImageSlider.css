@@ -1,0 +1,29 @@
+/* ContinuousSlider.css */
+
+.slid-wrapper {
+  /* width: 100%; */
+  overflow: hidden;
+  /* position: relative; */
+  margin-top: 3rem;
+}
+
+.slder {
+  display: flex;
+  /* width: calc(200%); Need to ensure it's twice the width for continuous sliding */
+  flex: 1 0 auto;
+  animation: slde 100s linear infinite; /* Adjust speed if necessary */
+}
+
+
+/* Keyframes to slide from right to left */
+@keyframes slde {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+.imager{
+    width: 24%;
+}
